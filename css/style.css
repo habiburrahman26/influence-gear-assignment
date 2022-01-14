@@ -21,11 +21,12 @@ body {
   font-size: 52px;
   font-weight: 700;
   color: #3a3a3a;
-  line-height: 1.5;
+  line-height: 1.3;
   margin-bottom: 16px;
 }
 
-.btn {
+.btn:link,
+.btn:visited{
   font-size: 16px;
   text-decoration: none;
   color: #fff;
@@ -40,22 +41,64 @@ body {
 }
 
 /* --------------------------
+    HEADER
+----------------------------- */
+
+.header {
+  padding: 40px 120px 80px 120px;
+}
+
+.nav-lists {
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.nav-item-list,
+.nav-lists {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item {
+  list-style: none;
+}
+.nav-item:not(:last-child) {
+  margin-right: 34px;
+}
+
+.nav-link {
+  font-size: 16px;
+  color: #3a3a3a;
+  text-decoration: none;
+}
+
+.nav-icon {
+  font-size: 20px;
+}
+/* --------------------------
     HERO SECTION
 ----------------------------- */
+.section-hero {
+  background-color: chartreuse;
+}
+
 .hero {
-  height: 100vh;
+  /* height: 75vh; */
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  align-items: center;
   justify-items: center;
   column-gap: 133px;
-  background-color: aquamarine;
   padding: 0 120px 0 120px;
 }
 
-.hero__img-box {
-  width: 440px;
-  height: 414px;
+.hero__text-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .arrow-icon {
@@ -67,5 +110,10 @@ body {
   font-size: 16px;
   font-weight: 600;
   color: #3a3a3a;
-  margin-bottom: 16px;
+  margin-bottom: 28px;
+}
+
+.hero__img {
+  width: 440px;
+  height: 414px;
 }
