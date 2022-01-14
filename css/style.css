@@ -1,0 +1,71 @@
+/* --------------------------
+    FONT
+----------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* --------------------------
+    GENRAL REUSABLE COMPONENTS
+----------------------------- */
+
+.heading-primary {
+  font-size: 52px;
+  font-weight: 700;
+  color: #3a3a3a;
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+
+.btn {
+  font-size: 16px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #e02c6d;
+  padding: 10px 24px;
+  border: none;
+  display: inline-block;
+}
+
+.btn-large {
+  border-radius: 100px;
+}
+
+/* --------------------------
+    HERO SECTION
+----------------------------- */
+.hero {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-items: center;
+  column-gap: 133px;
+  background-color: aquamarine;
+  padding: 0 120px 0 120px;
+}
+
+.hero__img-box {
+  width: 440px;
+  height: 414px;
+}
+
+.arrow-icon {
+  color: #fff;
+  font-weight: 600;
+  margin-left: 5px;
+}
+.hero-description {
+  font-size: 16px;
+  font-weight: 600;
+  color: #3a3a3a;
+  margin-bottom: 16px;
+}
