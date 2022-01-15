@@ -440,15 +440,9 @@ body {
   }
 }
 
-@media (max-width: 500px) {
-
-  body{
-    width: 100%;
-  }
-
+@media (max-width: 450px) {
   .header {
     padding: 40px 20px 50px 20px;
-    text-align: center;
   }
 
   .hero {
@@ -459,4 +453,9 @@ body {
   .section-services {
     padding: 0 20px;
   }
+
+  body{
+    width: fit-content;
+  }
+
 }
