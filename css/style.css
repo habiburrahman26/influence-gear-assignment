@@ -412,6 +412,10 @@ body {
     padding: 0 40px 0 40px;
   }
 
+  .hero img{
+    height: 90%;
+  }
+
   .hero-description {
     font-size: 16px;
   }
@@ -477,6 +481,10 @@ body {
   .section-collection,
   .section-services {
     padding: 0 20px;
+  }
+
+  .section-hero{
+    margin-bottom: 20px;
   }
 
 }
