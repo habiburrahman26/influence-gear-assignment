@@ -458,21 +458,15 @@ body {
 
 @media (max-width: 450px) {
   .header {
-    padding: 40px 20px 50px 20px;
+    padding: 40px 10px 50px 0;
   }
 
   .hero {
-    padding: 0 20px 60px 20px;
+    padding: 0 10px 60px 0;
   }
 
   .section-collection,
   .section-services {
     padding: 0 20px;
   }
-
-  /* body{
-    width: fit-content;
-    overflow-x: hidden;
-  } */
-
 }
