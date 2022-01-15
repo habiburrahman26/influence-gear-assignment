@@ -238,3 +238,50 @@ body {
   text-align: right;
   margin-top: 50px;
 }
+
+
+.footer{
+  background-color: #0A0826;
+  padding: 50px 0;
+  color: #fff;
+}
+
+.footer-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-title{
+  font-size: 24px;
+  margin-bottom: 3px;
+}
+
+.footer-text-1,
+.footer-text-2{
+  font-size: 14px;
+}
+
+.footer-text-1{
+  margin-bottom: 3px;
+}
+
+.footer-text-2{
+  margin-bottom: 17px;
+}
+
+.footer-iocn-box{
+  display: flex;
+  gap: 16px;
+}
+
+.footer-icon{
+  background-color: #23213c;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
