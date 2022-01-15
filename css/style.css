@@ -149,7 +149,6 @@ body {
 
 .hero__img-box::before {
   width: 75%;
-  /* height: 75%; */
   padding-bottom: 75%;
   background-color: #f1f3f5;
   z-index: -2;
@@ -170,10 +169,15 @@ body {
 /* --------------------------
    SECTION COLLECTION
 ----------------------------- */
-.sction-collection {
+.section-collection,
+.section-services {
   width: 1047px;
   margin: 0 auto;
   margin-bottom: 100px;
+}
+
+.collection{
+  background-color: red;
 }
 
 .cards {
@@ -228,9 +232,8 @@ body {
   color: #5e6366;
 }
 
-
 .link:link,
-.link:visited{
+.link:visited {
   font-size: 16px;
   color: #e02c6d;
   text-decoration: none;
@@ -239,43 +242,86 @@ body {
   margin-top: 50px;
 }
 
-
-.footer{
-  background-color: #0A0826;
-  padding: 50px 0;
-  color: #fff;
+.link i {
+  font-size: 14px;
+  margin-left: 4px;
 }
 
-.footer-content{
+/* --------------------------
+   SECTION SERVICES
+----------------------------- */
+.services {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 30px;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  padding: 15px 10px;
+}
+
+.service-icon {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.services__title {
+  font-size: 20px;
+  font-weight: 500;
+  color: #3a3a3a;
+  margin-bottom: 10px;
+}
+
+.services__text {
+  font-size: 14px;
+  color: #5e6366;
+}
+
+/* --------------------------
+   FOOTER
+----------------------------- */
+.footer {
+  background-color: #0a0826;
+}
+
+.footer-container {
+  padding: 50px 0;
+  color: #fff;
+
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.footer-title{
+.footer-title {
   font-size: 24px;
   margin-bottom: 3px;
 }
 
 .footer-text-1,
-.footer-text-2{
+.footer-text-2 {
   font-size: 14px;
 }
 
-.footer-text-1{
+.footer-text-1 {
   margin-bottom: 3px;
 }
 
-.footer-text-2{
+.footer-text-2 {
   margin-bottom: 17px;
 }
 
-.footer-iocn-box{
+.footer-iocn-box {
   display: flex;
   gap: 16px;
 }
 
-.footer-icon{
+.footer-icon {
   background-color: #23213c;
   width: 30px;
   height: 30px;
@@ -284,4 +330,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+
+
+@media (max-width:1092px){
+
 }
