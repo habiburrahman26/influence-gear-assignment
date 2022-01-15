@@ -407,7 +407,7 @@ body {
 
   .hero {
     grid-template-columns: 1fr;
-    row-gap: 60px;
+    row-gap: 30px;
     text-align: center;
     padding: 0 40px 0 40px;
   }
@@ -470,13 +470,15 @@ body {
     padding: 40px 10px 50px 10px;
   }
 
+  .hero {
+    row-gap: 0px;
+    padding: 0 20px 0 20px;
+  }
+
   .hero img{
     height: 70%;
   }
 
-  .hero {
-    padding: 0 20px 0 20px;
-  }
 
   .section-collection,
   .section-services {
