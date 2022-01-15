@@ -96,7 +96,6 @@ body {
     HERO SECTION
 ----------------------------- */
 .section-hero {
-  /* background-color: chartreuse; */
   margin-bottom: 110px;
 }
 
@@ -330,16 +329,49 @@ body {
 
 @media (max-width: 1100px) {
   .header {
-    padding: 40px 80px 65px 80px;
+    padding: 40px 70px 65px 70px;
   }
 
   .hero {
     column-gap: 70px;
-    padding: 0 80px 60px 80px;
+    padding: 0 90px 60px 90px;
   }
 
   .section-collection,
   .section-services {
     padding: 0 80px;
   }
+}
+
+@media (max-width: 950px) {
+  .header {
+    padding: 40px 50px 65px 50px;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+    row-gap: 60px;
+    text-align: center;
+    padding: 0 50px 60px 50px;
+  }
+
+  .heading-primary {
+    font-size: 42px;
+  }
+
+  .nav-lists ul {
+    display: none;
+  }
+
+  .section-collection,
+  .section-services {
+    padding: 0 70px;
+  }
+
+  .cards,
+  .services {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 30px;
+  }
+
 }
