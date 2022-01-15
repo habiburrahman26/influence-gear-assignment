@@ -176,10 +176,9 @@ body {
 }
 
 .hero__img {
-  /* width: 440px;
-  height: 414px; */
   height: 100%;
 }
+
 
 /* --------------------------
    SECTION COLLECTION
@@ -342,6 +341,11 @@ body {
   justify-content: center;
 }
 
+
+/* --------------------------
+    MEDIA QUERY
+----------------------------- */
+
 @media (max-width: 1100px) {
   .header {
     padding: 40px 60px 65px 60px;
@@ -363,12 +367,18 @@ body {
     padding: 40px 50px 65px 50px;
   }
 
+  
+  .nav-lists {
+    justify-content: center;
+  }
+
   .hero {
     grid-template-columns: 1fr;
     row-gap: 60px;
     text-align: center;
     padding: 0 50px 60px 50px;
   }
+
 
   .heading-primary {
     font-size: 42px;
@@ -393,11 +403,6 @@ body {
 @media (max-width: 570px) {
   .header {
     padding: 40px 40px 50px 40px;
-    text-align: center;
-  }
-
-  .nav-lists {
-    justify-content: center;
   }
 
   .hero {
