@@ -162,8 +162,9 @@ body {
 }
 
 .hero__img {
-  width: 440px;
-  height: 414px;
+  /* width: 440px;
+  height: 414px; */
+  height: 100%;
 }
 
 /* --------------------------
@@ -171,19 +172,15 @@ body {
 ----------------------------- */
 .section-collection,
 .section-services {
-  width: 1047px;
+  max-width: 1047px;
   margin: 0 auto;
   margin-bottom: 100px;
-}
-
-.collection{
-  background-color: red;
 }
 
 .cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  column-gap: 30px;
+  column-gap: 25px;
   row-gap: 30px;
 }
 
@@ -201,8 +198,7 @@ body {
 }
 
 .card__img-box img {
-  width: 308px;
-  height: 256px;
+  width: 100%;
 }
 
 .price {
@@ -332,8 +328,18 @@ body {
   justify-content: center;
 }
 
+@media (max-width: 1100px) {
+  .header {
+    padding: 40px 80px 65px 80px;
+  }
 
+  .hero {
+    column-gap: 70px;
+    padding: 0 80px 60px 80px;
+  }
 
-@media (max-width:1092px){
-
+  .section-collection,
+  .section-services {
+    padding: 0 80px;
+  }
 }
