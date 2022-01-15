@@ -441,9 +441,11 @@ body {
 }
 
 @media (max-width: 500px) {
-  body {
-    width: fit-content;
+
+  body{
+    width: 100%;
   }
+
   .header {
     padding: 40px 20px 50px 20px;
     text-align: center;
