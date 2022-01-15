@@ -173,7 +173,7 @@ body {
 .sction-collection {
   width: 1047px;
   margin: 0 auto;
-  margin-bottom: 96px;
+  margin-bottom: 100px;
 }
 
 .cards {
@@ -226,4 +226,15 @@ body {
 .rating-number {
   font-size: 14px;
   color: #5e6366;
+}
+
+
+.link:link,
+.link:visited{
+  font-size: 16px;
+  color: #e02c6d;
+  text-decoration: none;
+  display: block;
+  text-align: right;
+  margin-top: 50px;
 }
