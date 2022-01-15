@@ -456,6 +456,7 @@ body {
 
   body{
     width: fit-content;
+    overflow: hidden;
   }
 
 }
