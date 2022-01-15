@@ -25,8 +25,16 @@ body {
   margin-bottom: 16px;
 }
 
+.heading-secondary {
+  font-size: 28px;
+  font-weight: 600;
+  color: #3a3a3a;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
 .btn:link,
-.btn:visited{
+.btn:visited {
   font-size: 16px;
   text-decoration: none;
   color: #fff;
@@ -36,7 +44,7 @@ body {
   display: inline-block;
 }
 
-.btn:hover{
+.btn:hover {
   background-color: #ca2862;
 }
 
@@ -84,12 +92,12 @@ body {
   font-size: 20px;
 }
 
-
 /* --------------------------
     HERO SECTION
 ----------------------------- */
 .section-hero {
   /* background-color: chartreuse; */
+  margin-bottom: 110px;
 }
 
 .hero {
@@ -98,7 +106,7 @@ body {
   grid-template-columns: repeat(2, 1fr);
   justify-items: center;
   column-gap: 133px;
-  padding: 0 120px 0 120px;
+  padding: 0 120px 60px 120px;
 }
 
 .hero__text-box {
@@ -130,7 +138,7 @@ body {
 
 .hero__img-box::before,
 .hero__img-box::after {
-  content: "";
+  content: '';
   display: block;
   border-radius: 50%;
   position: absolute;
@@ -148,8 +156,8 @@ body {
 }
 
 .hero__img-box::after {
-  width: 110%;
-  padding-bottom: 110%;
+  width: 100%;
+  padding-bottom: 100%;
   border: 2px solid #f1f3f5;
   z-index: -1;
 }
@@ -157,4 +165,65 @@ body {
 .hero__img {
   width: 440px;
   height: 414px;
+}
+
+/* --------------------------
+   SECTION COLLECTION
+----------------------------- */
+.sction-collection {
+  width: 1047px;
+  margin: 0 auto;
+  margin-bottom: 96px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 30px;
+  row-gap: 30px;
+}
+
+.card {
+  border-radius: 5px;
+  padding: 17px 14px 17px 14px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.card__title {
+  font-size: 24px;
+  font-weight: 500;
+  color: #18191f;
+  margin-bottom: 6px;
+}
+
+.card__img-box img {
+  width: 308px;
+  height: 256px;
+}
+
+.price {
+  font-size: 24px;
+  margin-bottom: 6px;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2px;
+}
+
+.fa-star.filled,
+.fa-star-half-alt.filled {
+  font-size: 12px;
+  color: #fb8200;
+}
+
+.rating-number {
+  margin-left: 8px;
+}
+
+.shipping-details,
+.rating-number {
+  font-size: 14px;
+  color: #5e6366;
 }
